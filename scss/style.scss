@@ -1,0 +1,16 @@
+//Use custom as a module
+@use 'custom';
+//IMPORT COMPONENTS
+@use 'components/animations';
+@use 'components/mixins';
+@use 'components/buttons';
+@use 'components/typography';
+//IMPORT SECTIONS
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/get-started';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/portfolio';
+@use 'sections/services';
+@use 'sections/skils';

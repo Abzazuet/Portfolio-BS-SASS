@@ -1,0 +1,10 @@
+npm init to initiate node
+npm instal --save-dev sass 
+npm install bootstrap --save
+npm install fontawesome --save
+npm i autoprefixer --save
+npm i postcss-cli --save
+"scripts": {
+    "compile:sass":"sass --watch scss:assets/css/"
+  },
+npm run compile:scss

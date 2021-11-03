@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+/*DEFAULTS*/
+:root {
+  --bg-color-1: #060608;
+  --bg-color-2: rgb(32, 32, 32);
+  --bg-color-3: rgb(110, 102, 102);
+  --primary-color: #d72323;
+  --secondary-color: #11b779;
+  --terciary-color: #28c7fa;
+  --font-family: "Poppins", sans-serif;
+  --light-font: 400;
+  --regular-font: 700;
+  --bold-font: 900;
+  --transform: 0.3s;
+}
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+input{
+  border: none;
+}
+i{
+  cursor: pointer;
+}
+i:hover{
+  color: var(--secondary-color);
+}
+/*Resets*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+body {
+  background-color: var(--bg-color-1);
+  color: #fff;
+  font-family: var(--font-family);
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button{
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  margin: 0;
+}
