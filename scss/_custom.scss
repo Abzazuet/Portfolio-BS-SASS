@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 //MY THEME COLORS
 $blue-dark:    #1D1D42;
 $blue-medium: #141432;
@@ -27,7 +28,6 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 
 //IMPORT BOOTSTRAP 5, HERE WE ARE GONNA MODIFY WITHOUT CHANGING THE ORIGINAL FILE
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
 
