@@ -2,6 +2,7 @@ npm init to initiate node
 npm instal --save-dev sass 
 npm install bootstrap --save
 npm install fontawesome --save
+npm install @fortawesome/fontawesome-free -save
 npm i autoprefixer --save
 npm i postcss-cli --save
 "scripts": {
