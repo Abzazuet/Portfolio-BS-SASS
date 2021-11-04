@@ -8,3 +8,10 @@
     rgba($secondary, 0.95)
   );
 }
+//ABSOULTE CENTER
+@mixin absoluteCenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}

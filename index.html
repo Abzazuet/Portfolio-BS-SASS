@@ -9,12 +9,21 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
     <link rel="shortcut icon" href="#" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/glightbox/src/postcss/glightbox.css"
+    />
   </head>
   <body>
     <!--NAVBAR SECTION-->
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand"><img src="#" alt="logo image" /></a>
+        <a href="#" class="navbar-brand"><img src="#" alt="AbelZazueta" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,7 +66,71 @@
         </div>
       </div>
     </nav>
+    <!--INTRO SECTION-->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <!--Start content for the intro-->
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hello! I'm Abel</span>
+              <span class="display-2--description lh-base">
+                I'm a self-taught programmer in search of having new job
+                opportunities. I have taught myself web programming, python and
+                dart. I also learned C while studying my Bachelor's.
+              </span>
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">
+              Get in touch
+              <span> <i class="fas fa-arrow-right"></i></span>
+            </button>
+          </div>
+          <!--Start content for the video-->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img
+                src="assets/img/art/Web development _Flatline.png"
+                alt="video illustration"
+                class="img-fluid"
+              />
+              <a
+                href="#"
+                class="
+                  glightbox
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
+                ><span> <i class="fas fa-play-circle"></i> </span>
+                <span class="border-animation border-animation--border-1">
+                </span>
+                <span class="border-animation border-animation--border-2">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFF"
+          fill-opacity="1"
+          d="M0,128L40,117.3C80,107,160,85,240,90.7C320,96,400,128,480,149.3C560,171,640,181,720,186.7C800,192,880,192,960,176C1040,160,1120,128,1200,112C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
     <!--IMPORTANT TO INCLUDE JQUERY BEFORE BOOTSRAP-->
+    <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=62d2QvWAVt4',
+        'type': 'video',
+        'source': 'youtube',
+        'width': 900,
+        'autoPlayVideos': false,
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.js"></script>
   </body>
