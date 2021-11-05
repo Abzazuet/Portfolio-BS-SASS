@@ -11167,7 +11167,6 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 2rem;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
 .display-2--intro {
@@ -11257,6 +11256,9 @@ textarea.form-control-lg {
   text-transform: capitalize;
   font-weight: 600;
 }
+.menu li a:hover {
+  color: #6fcc97 !important;
+}
 
 .skills {
   padding: 0 0 5rem 0;
@@ -11271,6 +11273,9 @@ textarea.form-control-lg {
 }
 .skills__logo-box img {
   height: 100%;
+}
+.skills__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 /*# sourceMappingURL=style.css.map */
