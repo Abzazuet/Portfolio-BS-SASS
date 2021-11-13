@@ -1,9 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 //MY THEME COLORS
-$blue-dark:    #1D1D42;
-$blue-medium: #141432;
-$blue-light: #524eee;
-$green:    #6fcc97;
+$blue-dark:    hsl(240, 100%, 19%);    //h, 100s, low l
+$blue-medium: hsl(240, 42%, 45%);     //Reduce 35h, increase 5s, increase 30l
+$blue-light: hsl(240, 5%, 95%);        //5-10S, 95-100l
+$green:    hsl(89, 100%, 45%);        //-40h, +-5l
 //WHITE AND GREY COLORS
 $white:    #fff;
 $gray-100: #f8f9fa;
@@ -17,8 +17,8 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$primary: $blue-medium;
-$secondary: $blue-light;
+$primary: $blue-dark;
+$secondary: $blue-medium;
 //ACCORDION OVERRIDES
 $accordion-icon-width:                    1.875rem;
 $accordion-icon-color:                    $primary;

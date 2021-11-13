@@ -11143,7 +11143,7 @@ textarea.form-control-lg {
 }
 .btn-rounded span {
   position: absolute;
-  background-color: #524eee;
+  background-color: #4343a3;
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
@@ -11158,7 +11158,7 @@ textarea.form-control-lg {
 }
 
 .btn-rounded:hover {
-  background: linear-gradient(to right, rgba(20, 20, 50, 0.95), rgba(82, 78, 238, 0.95));
+  background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
   color: #fff;
 }
 .btn-rounded:hover span {
@@ -11193,7 +11193,7 @@ textarea.form-control-lg {
   height: 0.1rem;
   display: block;
   margin: 0 auto;
-  background-color: #524eee;
+  background-color: #4343a3;
 }
 
 .heading-line::after {
@@ -11204,7 +11204,7 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  background-color: #524eee;
+  background-color: #4343a3;
 }
 
 .display-3 {
@@ -11216,7 +11216,7 @@ textarea.form-control-lg {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  background-image: linear-gradient(to right, #141432, #524eee);
+  background-image: linear-gradient(to right, #000061, #4343a3);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11233,21 +11233,22 @@ a {
   font-weight: 600;
 }
 a:hover {
-  color: #6fcc97 !important;
+  color: #77e600 !important;
 }
 
 footer {
-  background-color: #141432;
+  background-color: #000061;
 }
 footer .icon {
   font-size: 2.5rem;
 }
 footer nav {
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .intro-section {
-  background: linear-gradient(to right, rgba(20, 20, 50, 0.95), rgba(82, 78, 238, 0.95));
+  background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
@@ -11264,7 +11265,7 @@ footer nav {
 }
 .intros .video-box a span i {
   font-size: 6rem;
-  color: #524eee;
+  color: #4343a3;
 }
 
 .border-animation {
@@ -11285,7 +11286,7 @@ footer nav {
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(20, 20, 50, 0.95), rgba(82, 78, 238, 0.95));
+  background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
@@ -11324,7 +11325,7 @@ footer nav {
 
 .icon {
   font-size: 1.5rem;
-  color: #524eee;
+  color: #4343a3;
   text-decoration: none;
 }
 @media (min-width: 992px) {
@@ -11333,7 +11334,7 @@ footer nav {
   }
 }
 .icon:hover {
-  color: #6fcc97;
+  color: #77e600;
 }
 
 .skills {
