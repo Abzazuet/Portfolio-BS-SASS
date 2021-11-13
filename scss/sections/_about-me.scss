@@ -17,13 +17,6 @@
     @include media-breakpoint-up(lg) {
       margin-top: 5rem;
     }
-    .icon {
-      font-size: 1.5rem;
-      color: $secondary;
-      @include media-breakpoint-up(lg) {
-        font-size: 2.5rem;
-      }
-    }
   }
   &__pic {
     max-width: 50%;
@@ -32,5 +25,16 @@
     @include media-breakpoint-up(md) {
       max-width: 100%;
     }
+  }
+}
+.icon {
+  font-size: 1.5rem;
+  color: $secondary;
+  text-decoration: none;
+  @include media-breakpoint-up(lg) {
+    font-size: 2.5rem;
+  }
+  &:hover{
+      color: $green;
   }
 }

@@ -11227,6 +11227,25 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+a {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+a:hover {
+  color: #6fcc97 !important;
+}
+
+footer {
+  background-color: #141432;
+}
+footer .icon {
+  font-size: 2.5rem;
+}
+footer nav {
+  margin: 0 auto;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(20, 20, 50, 0.95), rgba(82, 78, 238, 0.95));
   padding: 10rem 0 0 0;
@@ -11271,14 +11290,6 @@ textarea.form-control-lg {
 .menu li {
   padding: 0 0.7rem;
 }
-.menu li a {
-  color: #fff !important;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-.menu li a:hover {
-  color: #6fcc97 !important;
-}
 
 .trajectory {
   position: relative;
@@ -11301,15 +11312,6 @@ textarea.form-control-lg {
     margin-top: 5rem;
   }
 }
-.trajectory__content .icon {
-  font-size: 1.5rem;
-  color: #524eee;
-}
-@media (min-width: 992px) {
-  .trajectory__content .icon {
-    font-size: 2.5rem;
-  }
-}
 .trajectory__pic {
   max-width: 50%;
   margin: 0 auto;
@@ -11318,6 +11320,20 @@ textarea.form-control-lg {
   .trajectory__pic {
     max-width: 100%;
   }
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #524eee;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  .icon {
+    font-size: 2.5rem;
+  }
+}
+.icon:hover {
+  color: #6fcc97;
 }
 
 .skills {

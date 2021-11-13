@@ -1,0 +1,11 @@
+@use "../custom" as *;
+
+footer{
+    background-color: $primary;
+    .icon{
+        font-size: 2.5rem;
+    }
+    nav{
+        margin: 0 auto;
+    }
+}
