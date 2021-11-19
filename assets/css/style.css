@@ -11242,10 +11242,6 @@ footer {
 footer .icon {
   font-size: 2.5rem;
 }
-footer nav {
-  margin: 0 auto;
-  overflow: hidden;
-}
 
 .intro-section {
   background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
@@ -11353,6 +11349,12 @@ footer nav {
 }
 .skills__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
 }
 
 /*# sourceMappingURL=style.css.map */
