@@ -1,638 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abel Zazueta | Frontend Developer</title>
-    <link rel="stylesheet" href="assets/css/reset_default.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="shortcut icon" href="#" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/glightbox/src/postcss/glightbox.css"
-    />
-  </head>
-  <body>
-    <!--NAVBAR SECTION-->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-      <div class="container">
-        <a href="#" class="navbar-brand"><img src="#" alt="AbelZazueta" /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toogle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#home" aria-current="page" class="nav-link active">
-                Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#companies" class="nav-link"> Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#goals" class="nav-link">About Me</a>
-            </li>
 
-            <li class="nav-item">
-              <a href="#" class="nav-link"> FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"> Contact</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abel Zazueta | Frontend Developer</title>
+  <link rel="stylesheet" href="assets/css/reset_default.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="shortcut icon" href="#" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+</head>
+
+<body>
+  <!--NAVBAR SECTION-->
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"><img src="#" alt="AbelZazueta" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toogle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home" aria-current="page" class="nav-link active">
+              Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#companies" class="nav-link"> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#goals" class="nav-link">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link"> FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded">
+          +1 619 883 1918
+          <span> <i class="fas fa-phone-alt"></i></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!--INTRO SECTION-->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <!--Start content for the intro-->
+        <div class="col-md-6 intros">
+          <h1 class="display-2">
+            <span class="display-2--intro">Hello! My name is Abel</span>
+            <span class="display-2--description lh-base">
+              I'm a self-taught programmer in search of getting new job
+              opportunities. I have taught myself HTML, CSS, JS, Bootstrap,
+              SASS and Dart. I also learned C and Python while studying my
+              Bachelor's in Biomedical Engineering.
+            </span>
+          </h1>
           <button type="button" class="rounded-pill btn-rounded">
-            +1 619 883 1918
-            <span> <i class="fas fa-phone-alt"></i></span>
+            Get in touch
+            <span> <i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
-      </div>
-    </nav>
-    <!--INTRO SECTION-->
-    <section id="home" class="intro-section">
-      <div class="container">
-        <div class="row align-items-center text-white">
-          <!--Start content for the intro-->
-          <div class="col-md-6 intros">
-            <h1 class="display-2">
-              <span class="display-2--intro">Hello! My name is Abel</span>
-              <span class="display-2--description lh-base">
-                I'm a self-taught programmer in search of getting new job
-                opportunities. I have taught myself HTML, CSS, JS, Bootstrap,
-                SASS and Dart. I also learned C and Python while studying my
-                Bachelor's in Biomedical Engineering.
-              </span>
-            </h1>
-            <button type="button" class="rounded-pill btn-rounded">
-              Get in touch
-              <span> <i class="fas fa-arrow-right"></i></span>
-            </button>
-          </div>
-          <!--Start content for the video-->
-          <div class="col-md-6 intros text-end">
-            <div class="video-box">
-              <img
-                src="assets/img/art/Web development _Flatline.png"
-                alt="video illustration"
-                class="img-fluid"
-              />
-              <a
-                href="#"
-                class="
+        <!--Start content for the video-->
+        <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img src="assets/img/art/Web development _Flatline.png" alt="video illustration" class="img-fluid" />
+            <a href="#" class="
                   glightbox
                   position-absolute
                   top-50
                   start-50
                   translate-middle
-                "
-                ><span> <i class="fas fa-play-circle"></i> </span>
-                <span class="border-animation border-animation--border-1">
-                </span>
-                <span class="border-animation border-animation--border-2">
-                </span>
-              </a>
-            </div>
+                "><span> <i class="fas fa-play-circle"></i> </span>
+              <span class="border-animation border-animation--border-1">
+              </span>
+              <span class="border-animation border-animation--border-2">
+              </span>
+            </a>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#FFF"
-          fill-opacity="1"
-          d="M0,128L40,117.3C80,107,160,85,240,90.7C320,96,400,128,480,149.3C560,171,640,181,720,186.7C800,192,880,192,960,176C1040,160,1120,128,1200,112C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!--START OF SKILLS SECTION-->
-    <section id="companies" class="companies">
-      <div class="container">
-        <div class="row text-center">
-          <h4 class="fw-bold lead mb-3">Programming Skills</h4>
-          <div class="heading-line mb-5"></div>
-        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#FFF" fill-opacity="1"
+        d="M0,128L40,117.3C80,107,160,85,240,90.7C320,96,400,128,480,149.3C560,171,640,181,720,186.7C800,192,880,192,960,176C1040,160,1120,128,1200,112C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!--START OF SKILLS SECTION-->
+  <section id="companies" class="companies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">Programming Skills</h4>
+        <div class="heading-line mb-5"></div>
       </div>
-      <!--START SKILLS-->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-1.png"
-                alt="Skill 1 logo"
-                title="Skill 1 Logo"
-                class="img-fluid"
-              />
-            </div>
+    </div>
+    <!--START SKILLS-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-1.png" alt="Skill 1 logo" title="Skill 1 Logo" class="img-fluid" />
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-2.png"
-                alt="Skill 2 logo"
-                title="Skill 2 Logo"
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-2.png" alt="Skill 2 logo" title="Skill 2 Logo" class="img-fluid" />
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-3.png"
-                alt="Skill 3 logo"
-                title="Skill 3 Logo"
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-3.png" alt="Skill 3 logo" title="Skill 3 Logo" class="img-fluid" />
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-4.png"
-                alt="Skill 4 logo"
-                title="Skill 4 Logo"
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-4.png" alt="Skill 4 logo" title="Skill 4 Logo" class="img-fluid" />
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-5.png"
-                alt="Skill 5 logo"
-                title="Skill 5 Logo"
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-5.png" alt="Skill 5 logo" title="Skill 5 Logo" class="img-fluid" />
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="skills__logo-box shadow-sm">
-              <img
-                src="assets/img/skills/skill-6.png"
-                alt="Skill 6 logo"
-                title="Skill 6 Logo"
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm">
+            <img src="assets/img/skills/skill-6.png" alt="Skill 6 logo" title="Skill 6 Logo" class="img-fluid" />
           </div>
         </div>
       </div>
-    </section>
-    <!--GOALS-->
-    <section id="goals" class="my-goals">
-      <div class="container">
-        <div class="row text-center">
-          <h1 class="display-3 fw-bold">My Goals</h1>
-          <div class="heading-line mb-1"></div>
+    </div>
+  </section>
+  <!--GOALS-->
+  <section id="goals" class="my-goals">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">My Goals</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+    </div>
+    <!--START DESCRIPTION CONTENT-->
+    <div class="container">
+      <div class="row pt-0 pb-2 mt-0 mb-3">
+        <div class="col-md-6 border-right">
+          <div class="bg-white p-3">
+            <h2 class="fw-bold text-center">
+              I want to be part of every day advances in Web Development,
+              starting at FrontEnd development and then Backend development.
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-start">
+            <p class="fw-light">
+              The way to make this happen is developing projects on my own and
+              also by working in a big company so I can learn things from
+              other people and develop in big scale.
+            </p>
+          </div>
         </div>
       </div>
-      <!--START DESCRIPTION CONTENT-->
-      <div class="container">
-        <div class="row pt-0 pb-2 mt-0 mb-3">
-          <div class="col-md-6 border-right">
-            <div class="bg-white p-3">
-              <h2 class="fw-bold text-center">
-                I want to be part of every day advances in Web Development,
-                starting at FrontEnd development and then Backend development.
-              </h2>
+    </div>
+  </section>
+  <!--START OF STORY-->
+  <section id="aboutme" class="trajectory">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Trajectory</h1>
+        <div class="heading-line mb-0"></div>
+      </div>
+    </div>
+    <div class="container">
+      <!--BACHELORS-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-0">
+          <div class="trajectory__content">
+            <div class="d-block">
+              <div class="icon fas fa-tools"></div>
+              <div class="icon fas fa-heartbeat"></div>
             </div>
+            <h3 class="display-3--title mt-1">
+              Bachelor's in Biomedical Engineer<br />2017-2021
+            </h3>
+            <p class="lh-lg">
+              My studies had a duration of 4 years in which I studied various
+              topics. Such as theory of the human body and electronics and how
+              to make them interact. It also had a very practical approach in
+              regard to the design of electronic boards and programming of
+              microcontrolletrs using the C programmng language. I am most
+              proud of my graduation project in which my team and I developed
+              a brazelet to monitor the arterial pressure, using an ATmega8
+              and sensors, and we made it communicate with our phone by
+              debeloping an Andrid application in the programming language of
+              Dart with the Flutter SDK.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">
+              Download Transcript
+              <span> <i class="fas fa-arrow-right"></i></span>
+            </button>
           </div>
-          <div class="col-md-6">
-            <div class="bg-white p-4 text-start">
-              <p class="fw-light">
-                The way to make this happen is developing projects on my own and
-                also by working in a big company so I can learn things from
-                other people and develop in big scale.
-              </p>
-            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4 text-end">
+          <div class="trajectory__pic">
+            <img src="assets/img/stories/Health _Flatline.png" alt="university" class="img-fluid" />
           </div>
         </div>
       </div>
-    </section>
-    <!--START OF STORY-->
-    <section id="aboutme" class="trajectory">
-      <div class="container">
-        <div class="row text-center">
-          <h1 class="display-3 fw-bold">Trajectory</h1>
-          <div class="heading-line mb-0"></div>
-        </div>
-      </div>
-      <div class="container">
-        <!--BACHELORS-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-0">
-            <div class="trajectory__content">
-              <div class="d-block">
-                <div class="icon fas fa-tools"></div>
-                <div class="icon fas fa-heartbeat"></div>
-              </div>
-              <h3 class="display-3--title mt-1">
-                Bachelor's in Biomedical Engineer<br />2017-2021
-              </h3>
-              <p class="lh-lg">
-                My studies had a duration of 4 years in which I studied various
-                topics. Such as theory of the human body and electronics and how
-                to make them interact. It also had a very practical approach in
-                regard to the design of electronic boards and programming of
-                microcontrolletrs using the C programmng language. I am most
-                proud of my graduation project in which my team and I developed
-                a brazelet to monitor the arterial pressure, using an ATmega8
-                and sensors, and we made it communicate with our phone by
-                debeloping an Andrid application in the programming language of
-                Dart with the Flutter SDK.
-              </p>
-              <button
-                type="button"
-                class="rounded-pill btn-rounded border-primary"
-              >
-                Download Transcript
-                <span> <i class="fas fa-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4 text-end"
-          >
-            <div class="trajectory__pic">
-              <img
-                src="assets/img/stories/Health _Flatline.png"
-                alt="university"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <!--MEDICA SIEM WORK-->
-        <div class="row flex-column-reverse flex-md-row">
-          <div
-            class="
+      <!--MEDICA SIEM WORK-->
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="
               col-lg-6 col-md-6 col-sm-12 col-xs-12
               stories
               mt-4
               text-start
-            "
-          >
-            <div class="trajectory__pic">
-              <img
-                src="assets/img/stories/Road trip_Outline.png"
-                alt="medica-siem"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
-            <div class="trajectory__content">
-              <div class="d-block">
-                <div class="icon fas fa-tools"></div>
-                <div class="icon fas fa-car"></div>
-              </div>
-              <h3 class="display-3--title mt-1">
-                Field Service Engineer<br />2020-2021
-              </h3>
-              <p class="lh-lg">
-                While developing my final project I started working as an intern
-                and later on contracted as a Field Service Engineer in
-                <a href="https://medicasiem.com" target="_blank">Medica Siem</a
-                >. My main roles where to give corrective and preventive
-                maintenance to medical equipment, more specifically equipment
-                used in the operating rooms. I also got the chance to made
-                several vital signs monitor and colposcopes installations in
-                different hospitals all within Jalisco.
-              </p>
-            </div>
+            ">
+          <div class="trajectory__pic">
+            <img src="assets/img/stories/Road trip_Outline.png" alt="medica-siem" class="img-fluid" />
           </div>
         </div>
-        <!--AMAZON WORK-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
-            <div class="trajectory__content">
-              <div class="d-block">
-                <div class="icon fab fa-amazon"></div>
-                <div class="icon fas fa-user-tie"></div>
-              </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
+          <div class="trajectory__content">
+            <div class="d-block">
+              <div class="icon fas fa-tools"></div>
+              <div class="icon fas fa-car"></div>
+            </div>
+            <h3 class="display-3--title mt-1">
+              Field Service Engineer<br />2020-2021
+            </h3>
+            <p class="lh-lg">
+              While developing my final project I started working as an intern
+              and later on contracted as a Field Service Engineer in
+              <a href="https://medicasiem.com" target="_blank">Medica Siem</a>. My main roles where to give corrective
+              and preventive
+              maintenance to medical equipment, more specifically equipment
+              used in the operating rooms. I also got the chance to made
+              several vital signs monitor and colposcopes installations in
+              different hospitals all within Jalisco.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--AMAZON WORK-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
+          <div class="trajectory__content">
+            <div class="d-block">
+              <div class="icon fab fa-amazon"></div>
+              <div class="icon fas fa-user-tie"></div>
+            </div>
 
-              <h3 class="display-3--title mt-1">
-                Learning Ambassador Amazon<br />Ausgust 2021 - Current
-              </h3>
-              <p class="lh-lg">
-                Shortly after finishing my degree I came to work at Amazon.com,
-                in which I have learned so much about the process of such a big
-                company and how it is of extreme importance of keep developing
-                new technologies that make hard processes easier and easy tasks
-                even easier.
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4 text-end"
-          >
-            <div class="trajectory__pic">
-              <img
-                src="assets/img/stories/Teacher_Outline.png"
-                alt="amazon"
-                class="img-fluid"
-              />
-            </div>
+            <h3 class="display-3--title mt-1">
+              Learning Ambassador Amazon<br />Ausgust 2021 - Current
+            </h3>
+            <p class="lh-lg">
+              Shortly after finishing my degree I came to work at Amazon.com,
+              in which I have learned so much about the process of such a big
+              company and how it is of extreme importance of keep developing
+              new technologies that make hard processes easier and easy tasks
+              even easier.
+            </p>
           </div>
         </div>
-        <div class="row flex-column-reverse flex-md-row align-content-center">
-          <div
-            class="
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4 text-end">
+          <div class="trajectory__pic">
+            <img src="assets/img/stories/Teacher_Outline.png" alt="amazon" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <div class="row flex-column-reverse flex-md-row align-content-center">
+        <div class="
               col-lg-6 col-md-6 col-sm-12 col-xs-12
               stories
               mt-4
               text-start
-            "
-          >
-            <div class="trajectory__pic">
-              <img
-                src="assets/img/stories/Web Developer_Flatline.png"
-                alt="web"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
-            <div class="trajectory__content">
-              <div class="d-block">
-                <div class="icon fab fa-html5"></div>
-                <div class="icon fab fa-css3-alt"></div>
-                <div class="icon fab fa-js-square"></div>
-                <div class="icon fab fa-python"></div>
-                <div class="icon fab fa-bootstrap"></div>
-                <div class="icon fab fa-sass"></div>
-              </div>
-              <h3 class="display-3--title mt-1">
-                Web Developer<br />2019- Current
-              </h3>
-              <p class="lh-lg">
-                Two years after starting my Bachelor's another passion came into
-                my life and it is called programming. I started teaching myself
-                how web applications and pages worked, how where they build,
-                what did I need in order to develop them. So I bought a
-                <a href="https://www.udemy.com" target="_blank"
-                  >Course in Udemy</a
-                >. Which gave me a quick introduction.<br />
-                After many hours spent I discovered
-                <a href="https://freecodecamp.org" target="_blank"
-                  >freeCodeCamp</a
-                >. Until this day I earned two certifications approven by this
-                organization, one of them for FronEnd Development and the other
-                one for Javascript.<br />
-                But as I read I knew that I needed a Back End language, and I
-                remembered my Python lessons in biotechnology course. So I
-                started to dig into it and I got a certification of Python in
-                <a href="https://coursera.com">Coursera</a>.<br />
-                This is a brief introduction, there is much more to be told...
-              </p>
-            </div>
+            ">
+          <div class="trajectory__pic">
+            <img src="assets/img/stories/Web Developer_Flatline.png" alt="web" class="img-fluid" />
           </div>
         </div>
-        <!--FUTURE ME-->
-        <div class="row align-content-center">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
-            <div class="trajectory__content">
-              <div class="d-block">
-                <div class="icon fas fa-user-tie"></div>
-                <div class="icon fas fa-clock"></div>
-              </div>
-              <h3 class="display-3--title mt-1 text-center">Future Abel</h3>
-              <p class="lh-lg">
-                I see myself in the future as a successful programmer who is
-                able to program what the user will see as well as all the big
-                technology running behind, fixing ever single bug that might
-                surge and learning constantly about new emerging technologies.
-              </p>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
+          <div class="trajectory__content">
+            <div class="d-block">
+              <div class="icon fab fa-html5"></div>
+              <div class="icon fab fa-css3-alt"></div>
+              <div class="icon fab fa-js-square"></div>
+              <div class="icon fab fa-python"></div>
+              <div class="icon fab fa-bootstrap"></div>
+              <div class="icon fab fa-sass"></div>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories text-end">
-            <div class="trajectory__pic">
-              <img
-                src="assets/img/stories/Time_Two Color.png"
-                alt="future"
-                class="img-fluid"
-              />
-            </div>
+            <h3 class="display-3--title mt-1">
+              Web Developer<br />2019- Current
+            </h3>
+            <p class="lh-lg">
+              Two years after starting my Bachelor's another passion came into
+              my life and it is called programming. I started teaching myself
+              how web applications and pages worked, how where they build,
+              what did I need in order to develop them. So I bought a
+              <a href="https://www.udemy.com" target="_blank">Course in Udemy</a>. Which gave me a quick
+              introduction.<br />
+              After many hours spent I discovered
+              <a href="https://freecodecamp.org" target="_blank">freeCodeCamp</a>. Until this day I earned two
+              certifications approven by this
+              organization, one of them for FronEnd Development and the other
+              one for Javascript.<br />
+              But as I read I knew that I needed a Back End language, and I
+              remembered my Python lessons in biotechnology course. So I
+              started to dig into it and I got a certification of Python in
+              <a href="https://coursera.com">Coursera</a>.<br />
+              This is a brief introduction, there is much more to be told...
+            </p>
           </div>
         </div>
       </div>
-      <section id="testimonials" class="testimonials">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L34.3,32C68.6,32,137,32,206,74.7C274.3,117,343,203,411,208C480,213,549,139,617,133.3C685.7,128,754,192,823,197.3C891.4,203,960,149,1029,112C1097.1,75,1166,53,1234,80C1302.9,107,1371,181,1406,218.7L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
-        <div class="container">
-          <div class="row text-center text-white">
-            <h1 class="display-3 fw-bold">Testimonials</h1>
-            <hr style="width: 100px; height: 3px;" class="mx-auto">
-            <p class="lead pt-1">What my clients are saying</p>
+      <!--FUTURE ME-->
+      <div class="row align-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories mt-4">
+          <div class="trajectory__content">
+            <div class="d-block">
+              <div class="icon fas fa-user-tie"></div>
+              <div class="icon fas fa-clock"></div>
+            </div>
+            <h3 class="display-3--title mt-1 text-center">Future Abel</h3>
+            <p class="lh-lg">
+              I see myself in the future as a successful programmer who is
+              able to program what the user will see as well as all the big
+              technology running behind, fixing ever single bug that might
+              surge and learning constantly about new emerging technologies.
+            </p>
           </div>
-          <!--START CARROUSEL CONTENT-->
-          <div class="row align-items-center">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <!--ITEM 1-->
-                <div class="carousel-item active">
-                  <!--TESTIMONIAL CARD-->
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Best portfolio I've ever seen.
-                      <i class="fas fa-quote-right"></i>
-                    </p>
-                    <div class="ratings">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                  </div>
-                  <!--CLIENT PICTURE-->
-                  <div class="testimonials__picture">
-                    <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
-                  </div>
-                  <!--CLIENT NAME AND ROLE-->
-                  <div class="testimonials__name">
-                    <h3>Abel Zazueta</h3>
-                    <p class="fw-light">Biomedical Engineer</p>
-                  </div>
-                </div>
-                <!--ITEM 1-->
-                <div class="carousel-item">
-                  <!--TESTIMONIAL CARD-->
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Best portfolio.
-                      <i class="fas fa-quote-right"></i>
-                    </p>
-                    <div class="ratings">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                  </div>
-                  <!--CLIENT PICTURE-->
-                  <div class="testimonials__picture">
-                    <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
-                  </div>
-                  <!--CLIENT NAME AND ROLE-->
-                  <div class="testimonials__name">
-                    <h3>Abel Zazueta</h3>
-                    <p class="fw-light">Biomedical Engineer</p>
-                  </div>
-                </div>
-                <!--ITEM 1-->
-                <div class="carousel-item">
-                  <!--TESTIMONIAL CARD-->
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Best portfolio I've ever seen.
-                      <i class="fas fa-quote-right"></i>
-                    </p>
-                    <div class="ratings">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                  </div>
-                  <!--CLIENT PICTURE-->
-                  <div class="testimonials__picture">
-                    <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
-                  </div>
-                  <!--CLIENT NAME AND ROLE-->
-                  <div class="testimonials__name">
-                    <h3>Abel</h3>
-                    <p class="fw-light">Biomedical Engineer</p>
-                  </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 stories text-end">
+          <div class="trajectory__pic">
+            <img src="assets/img/stories/Time_Two Color.png" alt="future" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L34.3,32C68.6,32,137,32,206,74.7C274.3,117,343,203,411,208C480,213,549,139,617,133.3C685.7,128,754,192,823,197.3C891.4,203,960,149,1029,112C1097.1,75,1166,53,1234,80C1302.9,107,1371,181,1406,218.7L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <hr style="width: 100px; height: 3px;" class="mx-auto">
+        <p class="lead pt-1">What my clients are saying</p>
+      </div>
+      <!--START CARROUSEL CONTENT-->
+      <div class="row align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!--ITEM 1-->
+            <div class="carousel-item active">
+              <!--TESTIMONIAL CARD-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Best portfolio I've ever seen.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <!--CLIENT PICTURE-->
+              <div class="testimonials__picture">
+                <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
+              </div>
+              <!--CLIENT NAME AND ROLE-->
+              <div class="testimonials__name">
+                <h3>Abel Zazueta</h3>
+                <p class="fw-light">Biomedical Engineer</p>
+              </div>
             </div>
+            <!--ITEM 1-->
+            <div class="carousel-item">
+              <!--TESTIMONIAL CARD-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Best portfolio.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!--CLIENT PICTURE-->
+              <div class="testimonials__picture">
+                <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
+              </div>
+              <!--CLIENT NAME AND ROLE-->
+              <div class="testimonials__name">
+                <h3>Abel Zazueta</h3>
+                <p class="fw-light">Biomedical Engineer</p>
+              </div>
+            </div>
+            <!--ITEM 1-->
+            <div class="carousel-item">
+              <!--TESTIMONIAL CARD-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Best portfolio I've ever seen.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!--CLIENT PICTURE-->
+              <div class="testimonials__picture">
+                <img src="assets/img/customers/customer1.jpeg" alt="client-1 picture" class="img-fluid">
+              </div>
+              <!--CLIENT NAME AND ROLE-->
+              <div class="testimonials__name">
+                <h3>Abel</h3>
+                <p class="fw-light">Biomedical Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </button>
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L34.3,32C68.6,32,137,32,206,74.7C274.3,117,343,203,411,208C480,213,549,139,617,133.3C685.7,128,754,192,823,197.3C891.4,203,960,149,1029,112C1097.1,75,1166,53,1234,80C1302.9,107,1371,181,1406,218.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-      </section>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      <section class="faq">
-        
-      </section>
-      <footer class="text-center-xs pb-5 ">
-        <div class="iconos-footer pt-5 text-center">
-          <a href="#" class="icon fab fa-instagram"></a>
-          <a href="#" class="icon fab fa-github"></a>
-          <a href="#" class="icon fab fa-linkedin"></a>
-          <a href="#" class="icon fas fa-phone"></a>
-        </div>
-        <nav class="navbar  navbar-dark">
-          <div class="container">
-              <ul class="navbar-nav align-content-center">
-                <li class="nav-item">
-                  <a href="#home"class="nav-link">
-                    Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#companies" class="nav-link"> Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#goals" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link"> FAQ</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link"> Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </footer>
-    </section>
-    <!--IMPORTANT TO INCLUDE JQUERY BEFORE BOOTSRAP-->
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-        href: "https://www.youtube.com/watch?v=62d2QvWAVt4",
-        type: "video",
-        source: "youtube",
-        width: 900,
-        autoPlayVideos: false,
-      });
-    </script>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L34.3,32C68.6,32,137,32,206,74.7C274.3,117,343,203,411,208C480,213,549,139,617,133.3C685.7,128,754,192,823,197.3C891.4,203,960,149,1029,112C1097.1,75,1166,53,1234,80C1302.9,107,1371,181,1406,218.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <footer class="text-center-xs pb-5 ">
+    <div class="iconos-footer pt-5 text-center">
+      <a href="#" class="icon fab fa-instagram"></a>
+      <a href="#" class="icon fab fa-github"></a>
+      <a href="#" class="icon fab fa-linkedin"></a>
+      <a href="#" class="icon fas fa-phone"></a>
+    </div>
+    <nav class="navbar  navbar-dark">
+      <div class="container">
+        <ul class="navbar-nav align-content-center">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#companies" class="nav-link"> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#goals" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </footer>
+  <!--IMPORTANT TO INCLUDE JQUERY BEFORE BOOTSRAP-->
 
-    <script src="assets/js/bootstrap.bundle.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      touchNavigation: true,
+      href: "https://www.youtube.com/watch?v=62d2QvWAVt4",
+      type: "video",
+      source: "youtube",
+      width: 900,
+      autoPlayVideos: false,
+    });
+  </script>
+</body>
+
 </html>
