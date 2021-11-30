@@ -11318,6 +11318,13 @@ footer .icon {
     max-width: 100%;
   }
 }
+.trajectory a {
+  color: #000 !important;
+  text-decoration: none;
+}
+.trajectory a:hover {
+  color: #77e600 !important;
+}
 
 .icon {
   font-size: 1.5rem;

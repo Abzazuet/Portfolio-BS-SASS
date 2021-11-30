@@ -26,6 +26,13 @@
       max-width: 100%;
     }
   }
+  a{
+    color: $black !important;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $green !important;
+  }
 }
 .icon {
   font-size: 1.5rem;
