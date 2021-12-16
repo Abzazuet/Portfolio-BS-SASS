@@ -19,6 +19,8 @@ $black:    #000;
 $primary: $blue-dark;
 $secondary: $blue-medium;
 //ACCORDION OVERRIDES
+$accordion-padding-y:                     1.5em;
+$accordion-padding-x:                     1.5rem;
 $accordion-icon-width:                    1.875rem;
 $accordion-icon-color:                    $primary;
 $accordion-icon-active-color:             $secondary;
