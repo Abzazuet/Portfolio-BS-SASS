@@ -11236,7 +11236,7 @@ a:hover {
   color: #77e600 !important;
 }
 
-#faq p {
+.accordion-body p {
   text-align: left;
 }
 
