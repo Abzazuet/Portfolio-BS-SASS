@@ -44,7 +44,7 @@
             <a href="#faq" class="nav-link"> FAQ</a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
-            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
             <a href="#" class="nav-link"> Contact</a>
@@ -473,64 +473,72 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold">FAQ?</h1>
         <div class="heading-line mb-0"></div>
-        <p class="fw-light">Frequently Asked Questions, get knowldege before hand</p>
+        <p class="lead">Frequently Asked Questions, get knowldege before hand</p>
         <!--ACCORDION CONTENT-->
         <div class="row mt-5">
           <div class="col-md-12"></div>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   How did you learn to develop web pages?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Some of my main resources...</p>
+                  <p>I first started by buying a course in Udemy, but it was not enough for me. That's when I decided to
+                    start learning with freeCodeCamp. After learning new concepts there I would start developing
+                    webpages on my own and reading more and more about new technologies and new ways of doing the same.
+                  </p>
                 </div>
               </div>
             </div>
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                  aria-expanded="true" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                   What is your work experience?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>All of my experience...</p>
+                  <p>All of my experience has been developing projects on my own. I'm currently looking to work in a
+                    company so I can develop teamwork skills.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                  aria-expanded="true" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                   What tools do you master?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Within my repertory...</p>
+                  <p>Within my repertory of tools are HTML5, CSS3, Javascript, Bootstrap, SASS, SQL and Python. But I
+                    think there is always room to keep learning more about technologies you already know.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                  aria-expanded="true" aria-controls="collapseFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                   Why you instead of someone else?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Because...</p>
+                  <p> Mainly because I am a hard working person, who else likes to do more than that which is delegated.
+                    I'm hard-working and curious to learn more and more every single day. If there is something I do not
+                    know I will read and read until I know it. I like helping others to understand what I already
+                    understand.</p>
                 </div>
               </div>
             </div>
@@ -539,17 +547,95 @@
       </div>
     </div>
   </section>
-  <section id="portfolio">
+  <!--START SECTION PORTFOLIO-->
+  <section id="portfolio" class="portfolio">
     <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold">Portfolio</h1>
+      <div class="row text-center mt-3">
+        <h1 class="display-3 fw-bold">Latest Work</h1>
         <div class="heading-line mb-0"></div>
-        <p class="fw-light">Take a look to my work</p>
+        <p class="lead">Take a look to my work</p>
       </div>
-
+      <div class="row mt-2 mb-4 text-center">
+        <div class="col-md-12">
+          <button class="btn btn-outline-primary" type="button">
+            All
+          </button>
+          <button class="btn btn-outline-primary" type="button">
+            Websites
+          </button>
+          <button class="btn btn-outline-primary" type="button">
+            Design
+          </button>
+          <button class="btn btn-outline-primary" type="button">
+            Mockup
+          </button>
+        </div>
+      </div>
+      <!--PORTFOLIO ITEMS-->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="shadow portfolio-box">
+            <img src="assets/img/projects/1.png" alt="1 image" title="project 1" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Nikola Tesla's Tribute Page</h4>
+                <p>Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="shadow portfolio-box">
+            <img src="assets/img/projects/2.png" alt="2 image" title="project 2" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Survey for Website</h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="shadow portfolio-box">
+            <img src="assets/img/projects/3.png" alt="3 image" title="project 3" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Baby Clothes</h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="shadow portfolio-box">
+            <img src="assets/img/projects/4.png" alt="4 image" title="project 4" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Documentation for ATmega8</h4>
+                <p>Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="shadow portfolio-box">
+            <img src="assets/img/projects/5.png" alt="5 image" title="project 5" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Portfolio</h4>
+                <p>Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!--SECTION GET STARTED-->
+  <section id="getStarted" class="get-started">
 
   </section>
+  <!--SECTION FOOTER-->
   <footer class="text-center-xs pb-5 ">
     <div class="iconos-footer pt-5 text-center">
       <a href="#" class="icon fab fa-instagram"></a>
@@ -571,10 +657,10 @@
             <a href="#goals" class="nav-link">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> FAQ</a>
+            <a href="#faq" class="nav-link"> FAQ</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"> Contact</a>

@@ -11,7 +11,12 @@
 //ABSOULTE CENTER
 @mixin absoluteCenter{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%);
+}
+//TRANSITION
+@mixin transitionProperty{
+  transition-duration: 1000ms;
+  transition-property: all;
 }
