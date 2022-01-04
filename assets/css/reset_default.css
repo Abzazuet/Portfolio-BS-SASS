@@ -34,9 +34,7 @@ input{
 i{
   cursor: pointer;
 }
-i:hover{
-  color: var(--secondary-color);
-}
+
 /*Resets*/
 html {
   scroll-behavior: smooth;

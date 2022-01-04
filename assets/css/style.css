@@ -11236,15 +11236,111 @@ a:hover {
   color: #77e600 !important;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(0, 0, 97, 0.95), rgba(67, 67, 163, 0.95));
+}
+
 .accordion-body p {
   text-align: left;
 }
 
-footer {
-  background-color: #000061;
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
 }
-footer .icon {
-  font-size: 2.5rem;
+
+.contact-box {
+  position: relative;
+  padding: 0;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #4343a3;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--title:hover {
+  color: #4343a3 !important;
+}
+.contact-box__info--subtitle {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+.footer-sm a:hover {
+  color: #4343a3 !important;
+}
+.footer-sm:hover {
+  color: #4343a3 !important;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
 }
 
 .intro-section {

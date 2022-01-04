@@ -1,9 +1,61 @@
 @use "../custom" as *;
+@use "../components/mixins" as *;
 
-footer{
-    background-color: $primary;
-    .icon{
-        font-size: 2.5rem;
-    }
+.footer {
+  padding-top: 1rem;
+  background-color: $footer;
 }
-
+//STYLE THE CONTACT BOX CONTENT
+.contact-box {
+  position: relative;
+  padding: 0;
+  &__icon {
+    width: 2rem;
+    stroke: $secondary;
+    padding-top: 0.5rem;
+    @include media-breakpoint-up(sm) {
+      width: 4rem;
+    }
+  }
+  &__info {
+    padding: 0.4rem;
+    font-weight: 600;
+    &--title {
+      color: $white;
+      text-decoration: none;
+      font-size: 1rem;
+      @include media-breakpoint-up(sm) {
+        font-size: 1.4rem;
+      }
+    }
+    &--title:hover {
+      color: $secondary !important;
+    }
+    &--subtitle {
+      color: $gray-600;
+      text-decoration: none;
+      font-size: 0.8rem;
+      @include media-breakpoint-up(sm) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+//STYLE SOCIAL MEDIA CONTENT
+.footer-sm {
+  a {
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+      @include media-breakpoint-up(sm) {
+        font-size: 1.6rem;
+      }
+    }
+    &:hover{
+        color: $secondary!important;
+    }
+  }
+  &:hover{
+      color: $secondary!important;
+  }
+}
